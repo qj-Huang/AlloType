@@ -343,3 +343,6 @@ ASALocalRun/
 # Doc Manuscript
 *.doc
 *.docx
+
+# Build Directory
+build/*
