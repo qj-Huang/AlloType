@@ -1,0 +1,26 @@
+.
+
+1cmb
+
+1
+9
+
+1cmc
+
+1
+9
+1cma
+
+1
+9
+pocketA
+gen-pocket 4.5
+gen-force
+test
+back
+pocketAS
+gen-pocket 4.5
+gen-force
+test
+back
+energy

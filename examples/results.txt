@@ -1,0 +1,98 @@
+Enter dataset path: .
+Enter protein family name:
+Enter PDB name for apo state:1cmb
+Enter residues to be excluded:
+Enter spring constant: 1
+Enter cutoff: 9
+[Info] Spring constant = 1.0 Kcal/(mol A^2).
+[Info] Cutoff = 9.0 A.
+[Info] Successfully loaded protein at path .\1cmb.pdb
+[Info] Coordinate matrix, distance matrix, contact map have been generated for this protein.
+Enter PDB name for binding state:
+Enter PDB name for allostery state:1cmc
+Enter residues to be excluded:
+Enter spring constant: 1
+Enter cutoff: 9
+[Info] Spring constant = 1.0 Kcal/(mol A^2).
+[Info] Cutoff = 9.0 A.
+[Info] Successfully loaded protein at path .\1cmc.pdb
+[Info] Coordinate matrix, distance matrix, contact map have been generated for this protein.
+[Info] Residue distance to ligand has been calculated.
+Enter PDB name for complex state:1cma
+Enter residues to be excluded:
+Enter spring constant: 1
+Enter cutoff: 9
+[Info] Spring constant = 1.0 Kcal/(mol A^2).
+[Info] Cutoff = 9.0 A.
+[Info] Successfully loaded protein at path .\1cma.pdb
+[Info] Coordinate matrix, distance matrix, contact map have been generated for this protein.
+[Info] Residue distance to ligand has been calculated.
+[Info] Finish constructing Hessian matrix.
+[Info] Finish constructing Covariance matrix.
+[Info] Fitting process succeed.
+[Info] Calculating displacement succeed.
+[Result] RMSD from allostery state PDB file: 1.6921 A.
+[Info] Fitting process succeed.
+[Info] Calculating displacement succeed.
+[Result] RMSD from complex state PDB file: 1.9768 A.
+[Info] Matrix (binary data) has been written to 1cmb.pdb.hessian.
+[Info] Matrix (binary data) has been written to 1cmb.pdb.covariance.
+>>> pocketA
+[1] >>> gen-pocket 4.5
+[1] >>> gen-force
+[1] >>> test
+[Result] Pocket residues: 39 42 43 56 59 60 61 63 64 65 66 67 70 71 143 146 147 160 163 164 165 167 168 169 171 174 175 
+[Result] RMSD between real structure and structure calculated according to current pocket: 1.4332 A.
+[Result] Pearson between real structure and structure calculated according to current pocket: 0.621188 A.
+[1] >>> back
+>>> pocketAS
+[2] >>> gen-pocket 4.5
+[2] >>> gen-force
+[2] >>> test
+[Result] Pocket residues: 17 21 22 23 24 25 27 40 52 53 54 118 119 120 121 122 126 127 128 129 131 144 156 157 158
+[Result] RMSD between real structure and structure calculated according to current pocket: 1.59786 A.
+[Result] Pearson between real structure and structure calculated according to current pocket: 0.708366 A.
+[2] >>> back
+>>> energy
+[Info] Matrix has been written to force.txt.
+[Info] Add residue 17 to pocket.
+[Info] Add residue 21 to pocket.
+[Info] Add residue 22 to pocket.
+[Info] Add residue 23 to pocket.
+[Info] Add residue 24 to pocket.
+[Info] Add residue 25 to pocket.
+[Info] Add residue 27 to pocket.
+[Info] Add residue 40 to pocket.
+[Info] Add residue 52 to pocket.
+[Info] Add residue 53 to pocket.
+[Info] Add residue 54 to pocket.
+[Info] Add residue 118 to pocket.
+[Info] Add residue 119 to pocket.
+[Info] Add residue 120 to pocket.
+[Info] Add residue 121 to pocket.
+[Info] Add residue 122 to pocket.
+[Info] Add residue 126 to pocket.
+[Info] Add residue 127 to pocket.
+[Info] Add residue 128 to pocket.
+[Info] Add residue 129 to pocket.
+[Info] Add residue 131 to pocket.
+[Info] Add residue 144 to pocket.
+[Info] Add residue 156 to pocket.
+[Info] Add residue 157 to pocket.
+[Info] Add residue 158 to pocket.
+[Info] Matrix has been written to ddG_per_residue.txt.
+[Result] All predict free energy results:
+Free energy for binding state structure S: -203.6520 Kcal/mol.
+Pro: 101.3760 Kcal/mol.
+Pocket: -305.0280 Kcal/mol.
+Free energy for allostery state structure A: -48.3490 Kcal/mol.
+Pro: 50.4457 Kcal/mol.
+Pocket: -98.7947 Kcal/mol.
+Free energy for complex state structure AS: -259.0868 Kcal/mol.
+Pro: 131.7048 Kcal/mol.
+Pocket: -390.7916 Kcal/mol.
+Change of free energy: : -7.0858 Kcal/mol.
+S_ave: : -20.6030 Kcal/mol.
+A_ave: : -6.1787 Kcal/mol.
+AS_ave: : -26.3958 Kcal/mol.
+>>>
